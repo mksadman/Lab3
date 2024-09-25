@@ -20,4 +20,9 @@ public class FizzyPrinter {
         else
             return "Boom";
     }
+
+    public static void main(String[] args) {
+        FizzyPrinter game = new FizzyPrinter();
+        game.printFizzy(20);
+    }
 }
