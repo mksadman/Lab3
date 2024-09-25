@@ -4,7 +4,7 @@ import task1.main.FizzyPrinter;
 import org.junit.*;
 import static org.junit.Assert.assertEquals;
 
-public class FIzzyPrinterTests {
+public class FizzyPrinterTests {
     @Test
     public void testFizz() {
         FizzyPrinter fizz = new FizzyPrinter();
